@@ -1,0 +1,14 @@
+id,name,model_id/id,group_id/id,perm_read,perm_write,perm_create,perm_unlink
+dc3_access_area_admin,dc3_area_admin,dc3.model_dc3_area,base.group_system,1,1,1,1
+dc3_access_certification_admin,dc3_certification_admin,dc3.model_dc3_certification,base.group_system,1,1,1,1
+dc3_access_hired_company_admin,dc3_hired_company_admin,dc3.model_dc3_hired_company,base.group_system,1,1,1,1
+dc3_access_job_position_admin,dc3_job_position_admin,dc3.model_dc3_job_position,base.group_system,1,1,1,1
+dc3_access_job_type_admin,dc3_job_type_admin,dc3.model_dc3_job_type,base.group_system,1,1,1,1
+dc3_access_penalty_admin,dc3_penalty_admin,dc3.model_dc3_penalty,base.group_system,1,1,1,1
+dc3_access_plant_admin,dc3_plant_admin,dc3.model_dc3_plant,base.group_system,1,1,1,1
+dc3_access_responsable_admin,dc3_responsable_admin,dc3.model_dc3_responsable,base.group_system,1,1,1,1
+dc3_access_section_admin,dc3_section_admin,dc3.model_dc3_section,base.group_system,1,1,1,1
+dc3_access_speciality_admin,dc3_speciality_admin,dc3.model_dc3_speciality,base.group_system,1,1,1,1
+dc3_access_subarea_admin,dc3_subarea_admin,dc3.model_dc3_subarea,base.group_system,1,1,1,1
+dc3_access_worker_type_admin,dc3_worker_type_admin,dc3.model_dc3_worker_type,base.group_system,1,1,1,1
+dc3_access_worker_admin,dc3_worker_admin,dc3.model_dc3_worker,base.group_system,1,1,1,1

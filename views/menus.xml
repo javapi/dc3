@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <act_window id="action_dc3_area" name="action.dc3.area" res_model="dc3.area" view_mode="tree,form" />
+  <act_window id="action_dc3_certification" name="action.dc3.certification" res_model="dc3.certification" view_mode="tree,form" />
+  <act_window id="action_dc3_hired_company" name="action.dc3.hired_company" res_model="dc3.hired_company" view_mode="tree,form" />
+  <act_window id="action_dc3_job_position" name="action.dc3.job_position" res_model="dc3.job_position" view_mode="tree,form" />
+  <act_window id="action_dc3_job_type" name="action.dc3.job_type" res_model="dc3.job_type" view_mode="tree,form" />
+  <act_window id="action_dc3_penalty" name="action.dc3.penalty" res_model="dc3.penalty" view_mode="tree,form" />
+  <act_window id="action_dc3_plant" name="action.dc3.plant" res_model="dc3.plant" view_mode="tree,form" />
+  <act_window id="action_dc3_responsable" name="action.dc3.responsable" res_model="dc3.responsable" view_mode="tree,form" />
+  <act_window id="action_dc3_section" name="action.dc3.section" res_model="dc3.section" view_mode="tree,form" />
+  <act_window id="action_dc3_speciality" name="action.dc3.speciality" res_model="dc3.speciality" view_mode="tree,form" />
+  <act_window id="action_dc3_subarea" name="action.dc3.subarea" res_model="dc3.subarea" view_mode="tree,form" />
+  <act_window id="action_dc3_worker_type" name="action.dc3.worker_type" res_model="dc3.worker_type" view_mode="tree,form" />
+  <act_window id="action_dc3_worker" name="action.dc3.worker" res_model="dc3.worker" view_mode="tree,form" />
+
+
+  <menuitem name="DC3" id="menuitem_dc3_root" sequence="1" />
+
+  <menuitem id="menuitem_dc3_works" name="Works" parent="menuitem_dc3_root" sequence="1" />
+  <menuitem id="menuitem_dc3_catalogs" name="Catalogs" parent="menuitem_dc3_root" sequence="2" />
+  <menuitem id="menuitem_dc3_certifications" name="Certifications" parent="menuitem_dc3_root" sequence="3" />
+
+  <menuitem action="action_dc3_penalty" id="menuitem_dc3_penalty" parent="menuitem_dc3_certifications" sequence="1" />
+  <menuitem action="action_dc3_certification" id="menuitem_dc3_certification" parent="menuitem_dc3_certifications" sequence="2" />
+
+  <menuitem action="action_dc3_area" id="menuitem_dc3_area" parent="menuitem_dc3_catalogs" sequence="1" />
+  <menuitem action="action_dc3_hired_company" id="menuitem_dc3_hired_company" parent="menuitem_dc3_catalogs" sequence="2" />
+  <menuitem action="action_dc3_job_position" id="menuitem_dc3_job_position" parent="menuitem_dc3_catalogs" sequence="3" />
+  <menuitem action="action_dc3_job_type" id="menuitem_dc3_job_type" parent="menuitem_dc3_catalogs" sequence="4" />
+  <menuitem action="action_dc3_plant" id="menuitem_dc3_plant" parent="menuitem_dc3_catalogs" sequence="5" />
+  <menuitem action="action_dc3_responsable" id="menuitem_dc3_responsable" parent="menuitem_dc3_catalogs" sequence="6" />
+  <menuitem action="action_dc3_section" id="menuitem_dc3_section" parent="menuitem_dc3_catalogs" sequence="7" />
+  <menuitem action="action_dc3_speciality" id="menuitem_dc3_speciality" parent="menuitem_dc3_catalogs" sequence="8" />
+  <menuitem action="action_dc3_subarea" id="menuitem_dc3_subarea" parent="menuitem_dc3_catalogs" sequence="9" />
+  <menuitem action="action_dc3_worker_type" id="menuitem_dc3_worker_type" parent="menuitem_dc3_catalogs" sequence="10" />
+  <menuitem action="action_dc3_worker" id="menuitem_dc3_worker" parent="menuitem_dc3_catalogs" sequence="11" />
+</odoo>

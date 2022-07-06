@@ -1,0 +1,7 @@
+Accione
+([^\t\n\r]+)\t([^\t\n\r]+)\t([^\t\n\r]+)\t([^\t\n\r]+)\t([^\t\n\r]+)
+<act_window id="action_$5" name="action.$4" res_model="$4" view_mode="tree,form" />
+
+menus
+([^\t\n\r]+)\t([^\t\n\r]+)\t([^\t\n\r]+)\t([^\t\n\r]+)\t([^\t\n\r]+)
+<act_window action="action_$5" id="menuitem_$5" parent="" sequence"" />
